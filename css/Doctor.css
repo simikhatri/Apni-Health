@@ -1,0 +1,52 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Background-image{
+    background-image: url('../images/doc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+label{
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(2, 2, 43);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"], select{
+   width: 90%;
+   height: 35px ;
+   border-radius: 8px solid black;
+}
+input[type="submit"] {
+    width: 90%;
+    height: 35px;
+    margin-top: 30px;
+    position: relative;
+    background: linear-gradient(to right, #0113af 0%, #04bb4a 100%);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background: linear-gradient(to left, #0113af 0%, #04bb4a 100%);
+    box-shadow: 0 0 10px 5px rgb(153, 224, 106);
+    border: 1px solid rgb(2, 2, 43);
+  }
+  .nav-item{
+    color: aliceblue;
+  }
+  .navbar .nav-item:hover {
+     background-color:  rgb(2, 2, 45);
+     
+ }

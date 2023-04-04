@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-item img{
+    filter: brightness(55%) saturate(150%);
+}
+.members{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading{
+    color: #060b3c;
+    text-align: center;
+}
+.img{
+    border-radius: 70px;
+    height: 140px;
+    width: 140px;
+}
+.card-body{
+    font-size: larger;
+    font-weight: 600;
+    color: #060b3c;
+}
+.card-text{
+    color: #04bb4a;
+}
+.underline{
+content: '';
+height: 4px;
+width: 100%;
+margin-top: 20px;
+background: linear-gradient(to right, #0113af 0%, #04bb4a 100%);
+
+} 
+.team-card{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 40px;
+   margin-top: 30px;
+}
+.featurette .lead{
+    color: #060b3c;
+    font-size: medium;
+}
+.featurette .featurette-heading{
+    font-size: 35px;
+    color: #060b3c;
+}
+
+@media screen and (max-width: 750px) {
+    .members{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.img{
+
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+}
+.featurette .featurette-heading{
+   margin-top: 30px;
+}
+}

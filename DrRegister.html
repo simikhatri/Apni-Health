@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/DrRegister.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Doctor Registration</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-light">
+        <div class="container-fluid">
+            <img src="images/logo.png" class="nav-logo">
+            <a class="navbar-brand" href="index.html">ApniHealth</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class=" fa-duotone fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="login.html">Sign Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Doctor Registration section start -->
+    <div class="container cont-box">
+        <header>Doctor Registration Form</header>
+        <div class="content">
+            <form action="/DrRegister" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name:</span>
+                        <input type="text" name="firstName" placeholder="Enter your First name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name:</span>
+                        <input type="text" name="lastName" placeholder="Enter your Last Name"  required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number:</span>
+                        <input type="tel" name="Phone" placeholder="Enter your Phone Number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Qualification:</span>
+                        <input type="text" name="Qualify" placeholder="Enter your Qualification" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">InstituteName:</span>
+                        <input type="text" name="InstituteName"placeholder="Enter your Institute Name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Specialization:</span>
+                        <input type="text" name="Specialization" placeholder="Enter your Specialization" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Year Of Passing:</span>
+                        <input type="text" name="YofP" placeholder="Enter your Year Of Passing" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">City:</span>
+                        <input type="text" name="city" placeholder="Enter your City" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Hospital_Clinic:</span>
+                        <input type="text" name="Hospital_Clinic" placeholder="Enter Hospital_Clinic Name" required>
+                     </div>
+                     <div class="gender-details">
+                        <label>Gender:&nbsp; &nbsp; &nbsp; &nbsp;</Label>
+                            <input type="radio" name="gender" value="male"> Male &nbsp; &nbsp;
+                            <input type="radio" name="gender" value="female"> Female&nbsp; &nbsp;
+                            <input type="radio" name="gender" value="unknown"> Unknown
+                    </div>
+                </div>
+                
+                <div class="field input-box button ">
+                    <input type="submit" name="Register" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Doctor Registration section end -->
+
+    <div class="copyright-footer">
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="text-center">
+                        <p class="mb-0">Copyright © 2022 <a class="text-white " href=" index.html"
+                                target="_blank"><strong> ApniHealth.pk</strong></a> - All
+                            Rights Reserved.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

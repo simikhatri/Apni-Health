@@ -1,0 +1,42 @@
+textarea{
+    outline: none;
+    height: 200%;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+}
+textarea:focus{
+    border-bottom-width: 3px;
+}
+.containeer form .input-field textarea:focus~.underline::after{
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .containeer .input-box input[type="submit"] {
+    background: linear-gradient(to right, #0113af 0%, #04bb4a 100%);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+  }
+  
+  .containeer .input-box input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background: linear-gradient(to left, #0113af 0%, #04bb4a 100%);
+    box-shadow: 0 0 10px 5px rgb(153, 224, 106);
+  }
+
+  .content{
+   
+    box-shadow: rgba(13, 8, 62, 0.35) 0px 5px 15px;
+  }
+
+  .fields{
+    font-size: 18px;
+    margin-top: 15px;
+  }

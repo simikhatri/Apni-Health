@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-caption p {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.carousel-caption h2 {
+    color: black;
+}
+
+.navbar {
+    background-color: rgb(2, 2, 45);
+}
+
+.navbar a {
+    color: rgb(237, 237, 245);
+}
+
+.navbar .nav-item:hover {
+   height: 100%;
+    background-color:  #04AA6D;
+    border-radius: 8px;
+}
+.navbar .nav-link:hover{
+  color:aliceblue;
+}
+.nav-logo {
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar .navbar-brand:hover {
+    color: aliceblue;
+}
+
+.copyright-footer {
+    display: flex;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(2, 2, 45);
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+.containerr {
+    padding: 70px;
+    margin-left: 25%;
+    color: rgb(12, 83, 29);
+
+}
+
+.footer-top {
+    background-color: rgb(222, 222, 222);
+
+}
+.footer-top li{
+    list-style: none;
+}
+.containerr a {
+    text-decoration: none;
+    color: rgb(12, 8, 54);
+    font-weight: bold;
+    font-size: large;
+
+}
+/*services */
+.service1{
+   
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+}
+.bottom_border_heading{
+    color: rgb(2, 2, 43);
+}
+.service1 h5{
+    color:rgb(2, 2, 43)
+}
+.service1 p{
+    color:rgb(47, 136, 69)
+}
+.service1 button{
+    background-color:  rgb(2, 2, 43);
+    color: white;
+}
+.service1 button:hover{
+    background-color: rgb(47, 136, 69);
+    color: white;
+}
+
+/* who we are*/
+.team-goals {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 750px) {
+    
+}
+
+

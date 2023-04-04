@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.modal{
+    text-align: center;
+    color:  rgb(3, 3, 36); 
+    margin-top: 100px;
+    
+}
+.modal-dialog{
+    box-shadow: rgba(6, 89, 7, 0.6) 10px 15px 55px;
+    border-radius: 10px;
+}
+.modal-title{
+    margin-left: 170px;
+ }
+ .modal-body button{
+    margin: 4px;
+    padding: 4px;
+    background-color:  rgb(3, 3, 36);
+    color: aliceblue;
+    outline: none;
+    width: 120px;
+    font-size: 19px;
+ }
+ .modal-body button:hover{
+    background-color: #04AA6D;
+    outline: none;
+    width: 120px;
+    color:  rgb(3, 3, 36);
+    width: 130px;
+   
+ }
+
+
+.containeer {
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formerror {
+    color: red;
+
+}
+
+.log-form {
+    padding: 40px;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+}
+
+header {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(3, 3, 36);
+    text-align: center;
+    border-bottom: 2px solid#158932;
+    padding-bottom: 30px;
+
+}
+
+.containeer form .input-box {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+
+}
+
+form {
+    margin-top: 30px;
+}
+
+.log-form .underline::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    left: 0;
+    bottom: 0px;
+}
+
+.log-form .underline::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, #0113af 0%, #04bb4a 100%);
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+
+}
+
+.containeer form .input-field input:focus~.underline::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.containeer .input-box input[type="submit"] {
+    background: linear-gradient(to right, #0113af 0%, #04bb4a 100%);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.containeer .input-box input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background: linear-gradient(to left, #0113af 0%, #04bb4a 100%);
+    box-shadow: 0 0 10px 5px rgb(153, 224, 106);
+}
+
+form .field {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+
+.field input {
+    outline: none;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+}
+
+.field input:focus {
+    border-bottom-width: 3px;
+}
+
+.containeer .button {
+    height: 90%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.eye-icon {
+    position: absolute;
+    font-size: 22px;
+    color: #8b8b8b;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.container .logpic {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 400px) {
+    .form {
+        padding: 15px 10px;
+    }
+    .modal{
+        margin-top: 2px;
+        
+    }
+}
