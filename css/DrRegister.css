@@ -35,7 +35,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 20px 0 12px 0;
+  margin: 20px 0 50px 0;
 }
 form .user-details .input-box{
   margin-bottom: 15px;
@@ -64,7 +64,7 @@ form .input-box span.details{
 padding-right: 230px;
 color: #13042e;
 font-weight: 500;
-margin-top: 10px;
+margin-top: 30px;
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
@@ -81,7 +81,7 @@ margin-top: 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
- 
+ width: 95%;
 }
 
 

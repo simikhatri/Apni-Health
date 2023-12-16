@@ -59,9 +59,15 @@ body {
 
 .containerr {
     padding: 70px;
-    margin-left: 25%;
+    /* margin-left: 25%; */
     color: rgb(12, 83, 29);
 
+}
+.single-footer.links {
+    text-align: center;
+}
+.single-footer ul {
+    padding-left: 0;
 }
 
 .footer-top {
@@ -108,8 +114,10 @@ body {
     padding-top: 40px;
 }
 
-@media screen and (max-width: 750px) {
-    
+@media screen and (max-width: 1400px) {
+    .form-content{
+        padding-bottom: 3rem;
+    }
 }
 
 
